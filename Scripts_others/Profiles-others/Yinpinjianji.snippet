@@ -1,0 +1,12 @@
+
+# 脚本功能：音频剪辑-登陆后解锁会员
+# 脚本作者：afengye
+# 脚本频道：https://t.me/afengye
+# 更新时间：2024-08-06
+# 下载地址：https://apps.apple.com/app/id1339124759
+# 使用声明：️仅供学习交流, 🈲️商业用途
+
+^https:\/\/pay\.camoryapps\.com\/appPay\/api\/user\/info\/tokenLogin url script-response-body https://raw.githubusercontent.com/Noahchina/Quantumult-X/main/Scripts/ypjj.js
+^https:\/\/ad\.camoryapps\.com\/(\.?)+ url reject-200
+
+hostname = pay.camoryapps.com,ad.camoryapps.com

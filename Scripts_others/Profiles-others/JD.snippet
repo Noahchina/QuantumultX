@@ -1,0 +1,10 @@
+
+^https?://(bdsp-x|dsp-x)\.jd\.com/adx/ url reject-200
+
+^https?://ms\.jr\.jd\.com/gw/generic/aladdin/na/m/getLoadingPicture url reject-img
+
+^https?://m\.360buyimg\.com/babel/jfs/t1/\d{6}/\d{2}/\d{5}/\d{6}/.*\.jpg url reject-200
+
+^https?://m\.360buyimg\.com/mobilecms/s1125x2436_jfs/ url reject-200
+
+hostname = %APPEND% *.jd.com, *.jr.jd.com, *.360buyimg.com

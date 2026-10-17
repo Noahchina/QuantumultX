@@ -10,7 +10,7 @@
 
 
 [rewrite_local]
-^https:\/\/ytmsout\.radio\.cn\/resourceConnector\/connector\/getByPage url script-response-body https://raw.githubusercontent.com/Noahchina/QuantumultX/main/Scripts/yunting_ad.js
+^https?:\/\/ytmsout\.radio\.cn\/resourceConnector\/connector\/getByPage url script-response-body https://raw.githubusercontent.com/Noahchina/QuantumultX/main/Scripts/yunting_ad.js
 
 
 [mitm]
